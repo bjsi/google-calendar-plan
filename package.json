@@ -1,0 +1,19 @@
+{
+  "name": "open-plan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@types/google-apps-script": "^1.0.83",
+    "@types/jest": "^29.5.12",
+    "mockdate": "^3.0.5",
+    "ts-jest": "^29.1.3"
+  }
+}

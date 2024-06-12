@@ -1,0 +1,34 @@
+{
+  "timeZone": "Europe/London",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "Calendar",
+        "version": "v3",
+        "serviceId": "calendar"
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "addOns": {
+    "common": {
+      "name": "Plan 2.0",
+      "logoUrl": "https://www.nuget.org/profiles/SuperMemo/avatar?imageSize=512",
+      "layoutProperties": {
+        "primaryColor": "#2766B1",
+        "secondaryColor": "#E8EAF6"
+      },
+      "useLocaleFromApp": true
+    },
+    "calendar": {
+      "currentEventAccess": "READ_WRITE",
+      "homepageTrigger": {
+        "runFunction": "onHomepageOpened"
+      },
+      "eventOpenTrigger": {
+        "runFunction": "onEventOpened"
+      }
+    }
+  }
+}
