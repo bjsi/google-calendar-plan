@@ -24,7 +24,7 @@ Include "#fixed" in the description of an event to set it as fixed.
 
 - Doesn't support length rigid events yet.
 - There is a delay between the time you press the button and the time the event is actually moved. This is because the addon has to make a request to the Google Calendar API to move the event. This delay can be up to 10 seconds!
-- [Short events display as overlapping even though they aren't actually overlapping in terms of start and end times](https://support.google.com/calendar/thread/116152493/seamless-events-that-begin-as-others-end-are-displaying-inconsistently?hl=en)
+- [Short events display as overlapping even though they aren't actually overlapping in terms of start and end times](https://support.google.com/calendar/thread/116152493/seamless-events-that-begin-as-others-end-are-displaying-inconsistently?hl=en). This sometimes happens when you start an event late and future events get squashed.
 
 ## Developers
 
